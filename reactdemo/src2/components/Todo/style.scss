@@ -1,0 +1,40 @@
+$pageMargin: 50px;
+
+.g-page-home {
+    position: absolute;
+    top: $pageMargin;
+    right: $pageMargin;
+    bottom: $pageMargin;
+    left: $pageMargin;
+    display: flex;
+    border: #e5e5e5 solid 1px;
+    overflow: hidden;
+
+    .content-main {
+        flex: 1;
+        padding: 20px;
+        
+        .title{
+            overflow: hidden;
+
+            .icon-add{
+                float: right;
+                color: #2965A8;
+                font-size: 30px;
+                cursor: pointer;
+            }
+        }
+
+        .items{
+            margin-top: 20px;
+
+            .item{
+                padding: 5px 10px;
+            }
+        }
+
+        .completed{
+            text-decoration: line-through;
+        }
+    }
+}

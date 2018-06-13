@@ -1,2 +1,4 @@
 # react-mobx-demo
-react mobx demo
+
+
+mobx 学习资料
